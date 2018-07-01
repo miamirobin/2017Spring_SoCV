@@ -1,0 +1,10 @@
+read rtl b.v
+blast ntk
+satv pdr -o 0
+usage
+satv pdr -o 1
+usage
+satv pdr -o 2
+usage
+q -f
+

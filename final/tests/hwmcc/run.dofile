@@ -1,0 +1,4 @@
+read aig 6s209b0.aig
+satv pdr -o 0
+usage
+q -f

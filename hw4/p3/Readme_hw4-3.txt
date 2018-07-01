@@ -1,0 +1,1 @@
+Readme電機系    李友岐1 sat.h is revised.2 Type make to compile3 test.ans is a sample input4 Type ./seatAss test.ans to show the result 

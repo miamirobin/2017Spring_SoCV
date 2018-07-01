@@ -1,0 +1,62 @@
+電機系   李友岐
+
+2.
+(a) 
+a                                        b                                                     c
+watched pins: { a, d }             watched pins: { b, j }                           watched pins: { c, b }
+watching-0: { }                    watching-0: { }                                  watching-0: { c }
+watching-1: { }                    watching-1: { b, c }                             watching-1: { } 
+watching-known: { a }              watching-known: { }                              watching-known: { }
+
+(b) 
+a                                        b                                                     c
+watched pins: { a, d }             watched pins: { j, k }                           watched pins: { c, g }
+watching-0: { }                    watching-0: { }                                  watching-0: { c }
+watching-1: { }                    watching-1: {  }                                 watching-1: { } 
+watching-known: { a }              watching-known: { }                              watching-known: { }
+
+(c) 
+a                                        b                                                     c
+watched pins: { a, d }             watched pins: { j, k }                            watched pins: { c, g }
+watching-0: { }                     watching-0: { }                                   watching-0: { c }
+watching-1: { }                      watching-1: {  }                                 watching-1: { } 
+watching-known: { a }               watching-known: { }                               watching-known: { }
+
+(d)      
+a                                        b                                                     c
+watched pins: { a, d  }              watched pins: { j, k }                           watched pins: { c, g }
+watching-0: { }                      watching-0: { }                                   watching-0: { c }
+watching-1: { }                      watching-1: {  }                                 watching-1: { } 
+watching-known: { a }                watching-known: { }                             watching-known: { }
+d=0 is implied by updateWatch()
+
+(e)
+a                                        b                                                     c
+watched pins: { a, d }              watched pins: { j, k }                           watched pins: { c, g }
+watching-0: { }                      watching-0: { }                                   watching-0: { c }
+watching-1: { }                      watching-1: {  }                                 watching-1: { } 
+watching-known: { a }               watching-known: { }                              watching-known: { }
+
+(f)
+a                                        b                                                     c
+watched pins: {a, d  }             watched pins: { k, l }                           watched pins: { c, g }
+watching-0: { }                     watching-0: { }                                   watching-0: { c }
+watching-1: { }                      watching-1: {  }                                 watching-1: { } 
+watching-known: { a }              watching-known: { }                                 watching-known: { }
+  
+(g)
+a                                        b                                                     c
+watched pins: { a, d }             watched pins: {k, l }                            watched pins: { g, h }
+watching-0: { }                     watching-0: { }                                   watching-0: {  }
+watching-1: { }                      watching-1: {  }                                 watching-1: { } 
+watching-known: { a }              watching-known: { }                                 watching-known: { }
+                                                                                               
+(h)
+a                                        b                                                     c
+watched pins: { a, d }             watched pins: { k, l }                            watched pins: {g, i }
+watching-0: { }                     watching-0: { }                                   watching-0: {  }
+watching-1: { }                      watching-1: {  }                                  watching-1: { } 
+watching-known: {a  }              watching-known: { }                                 watching-known: { }
+
+
+

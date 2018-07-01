@@ -1,0 +1,17 @@
+1. clone v3
+   git clone https://bitbucket.org/chengyinwu/v3.git
+
+2. replace engine/ directory
+   rm -rf v3/engine; cp -r SoCV_v3_engine v3/engine
+
+3. build engines
+   cd v3/engine/
+   ./boolector.script
+   ./minisat.script
+   ./quteRTL.script
+
+4. build v3
+   cd ../
+   make
+   
+You can run the script "install.sh" to do all the above.

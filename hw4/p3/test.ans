@@ -1,0 +1,11 @@
+15
+LessThan(10, 4)
+Adjacent(6, 5)
+AdjacentNot(8, 6)
+AdjacentNot(5, 10)
+AssignNot(11, 8)
+Assign(10,5)
+Assign(11,0)
+Adjacent(7, 11)
+Adjacent(7, 3)
+LessThan(9, 4)
